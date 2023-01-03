@@ -88,7 +88,7 @@ power rail noise as possible. The output was via a BNC coax with clamps so I cou
 
 ### Matching varicaps
 The varicaps are the other part of the resonant circuit, see https://en.wikipedia.org/wiki/LC_circuit. The resonant frequency is described
-by the formula $f_0 = frac{1}{2 \pi \sqrt{L C}}$
+by the formula $f_0 = \frac{1}{2 \pi \sqrt{L C}}$
 
 
 
