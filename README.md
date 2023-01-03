@@ -92,6 +92,15 @@ by the formula $f_0 = \frac{1}{2 \pi \sqrt{L C}}$ where $f_0$ is the resonant fr
 capacitance in Farad. In the schema $L$ is our rod antenna ferrite L1 and $C$ is the three varicaps D1, D2 and D3 in series.
 We already know $L$, it’s 88.5 mH, because we have measured it. This means we can rewrite the expression to express $C$ as a function of $f_0$ as:
 $C = \frac{1}{L (2 \pi f_0)^2}$ that evaluates to $C = \frac{1}{0.0885 (2 \pi 17200)^2}$ = 967 pF.
+The varicaps BB112 has according to their datasheet a variable capacitance depending on the forward voltage ranging from 470 pF at 1 V to
+ 20 pF at 8 V. Since we have three in parallel, we got three times that. So almost 1500 pF to 60 pF.
+The varicaps are small transistor like items that does not require much current or space. The alternative to the varicaps are
+larger air capacitors costing several hundred euros to buy. The negative part is the DC needed over the varactors, we must have a capacitor
+in the circuit to block any DC from going into the antenna ferrite or we will be in big troubles! The DC block cap is not an issue in our circuit,
+so I think Paul’s choice of varactor is a stroke genius in this circuit. It becomes very easy and small compared to the large heavy variable
+air capacitors normally used. The BB112 came in a set of three matched once and at a reasonable 9.25 Euro!
+The actual value for the capacitance, 967 pF lies in the range of the varactors, so we should have no problem to tune for resonance at
+17.2 kHz as well as quite a few more frequencies if needed.
 
 
 
