@@ -88,7 +88,8 @@ power rail noise as possible. The output was via a BNC coax with clamps so I cou
 
 ### Matching varicaps
 The varicaps are the other part of the resonant circuit, see https://en.wikipedia.org/wiki/LC_circuit. The resonant frequency is described
-by the formula $f_0 = \frac{1}{2 \pi \sqrt{L C}}$
+by the formula $f_0 = \frac{1}{2 \pi \sqrt{L C}}$ where $f_0$ is the resonant frequency, L is the inductance in Henry and C is the
+capacitance in Farad. In the schema L is our rod antenna ferrite L1 and C is the three varicaps D1, D2 and D3 in series.
 
 
 
