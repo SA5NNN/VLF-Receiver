@@ -102,7 +102,14 @@ air capacitors normally used. The BB112 came in a set of three matched once and 
 The actual value for the capacitance, 967 pF lies in the range of the varactors, so we should have no problem to tune for resonance at
 17.2 kHz as well as quite a few more frequencies if needed.
 
-
+### Amplifier
+Paul use the BF987 MOSFET as the transistor, I however had already ordered the 2SK241 MOSFET, but BF987 can be found in Italy were the
+varactors BB112 are also located: https://www.rf-microwave.com/en/siemens/bf987/n-channel-mosfet-amplifier/bf987/
+The MOSFET needs to be a depletion mode N-channel MOSFET with low reverse transfer capacitance to not affect the resonant circuit.
+Depletion mode means it can work around 0 V as it allows both positive and negative signals. The resonant circuit provides a very low
+voltage signal around 17.2 kHz, so we need a very small amount of voltage around 0 V. If the received signal from SAQ is at signal strength S9,
+a very strong and fine signal, then it equates to 50 uV or -73 dBm. 50 millionth of a volt is not much and the sinus signal will oscillate between
+–25 uV and +25 uV (RMS, not peak to peak), our FET must accept that.
 
 
 
