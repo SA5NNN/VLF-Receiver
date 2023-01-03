@@ -24,7 +24,7 @@ As a receiver I decided to use my SDR radio, a SDRplay RSPdx. It has special fil
 The SDR software can be used to record not only the sound, but the entire sampled radio data if I wanted to. Convenient as I do not
 know morse so have to do a lot of decoding work after the reception.
 
-Paul’s design builds on a design from Broesel, Villach, Austria, that he simplified a bit. The design as a resonance circuit with the
+Paul’s design builds on a design from Broesel, Villach, Austria, that he simplified a bit. The design is a resonance circuit with the
 ferrite rod and capacitance provided by three varactors (or varicaps), then a MOSFET for amplification.
 
 The ferrite rod took an eternity to google, had to wade through an ocean of commercial crap from all over the world.
@@ -42,9 +42,9 @@ I made some changes to Paul’s original design due to components, final inducta
 if you want to use a soundcard.
 
 ## Design parameters
-Use Paul's design of a ferrite rod as the antenna. Use 3 varicaps and no caps for the tuning. Use 2SK241 as my MOSFET as that is what
-my supplier had available.
-Use my signal generator for testing at 17.2 kHz. Use my RSPdx as the receiver (50 Ohm input).
+* Use Paul's design of a ferrite rod as the antenna.
+* Use 3 varicaps and no caps for the tuning. Use 2SK241 as my MOSFET as that is what my supplier had available.
+* Use my signal generator for testing at 17.2 kHz. Use my RSPdx as the receiver (50 Ohm input).
 
 ## Building
 
@@ -55,8 +55,8 @@ The way you do this is by purchasing "enamelled" copper wire and wind that aroun
 the enamelling would crack and break off as we wound it. Instead, it is in fact some type of plastic coating. The coating is very
 important as without it the copper wire would short-circuit, and we would not get any inductance at all. There is more expensive double
 coated wire, this is for transmission when the voltage is high enough that you can get arcing. We do not need it in this design,
-they are also more expensive. The wire has very little voltage and current, so we can use as thing wire as we like. The thinner they
-are, the fiddlier everything gets. I opted for DASOL 155-17-339, 0.30 mm diameter, 1 hg roll.
+they are also more expensive. The wire has very little voltage and current, so we can use as thin wire as we like. The thinner they
+are though, the fiddlier everything gets, such as sanding. I opted for DASOL 155-17-339, 0.30 mm diameter, 1 hg roll.
 The rod was the largest I could find in material 33, that is MnZn that is excellent at building inductance with each turn of the wire.
 It is R33-050-750 at http://www.amidon.de/contents/de/d649.html. This is supposed to have a permeability of 800 which is fantastic!
 
@@ -76,6 +76,7 @@ I tightened enough to remove slack but put no pressure on the rod as it is fragi
 very fast. At the next measurement I was just over 100 mH. I had to unwind some of the wire, then measured 88.5 mH and I thought
 that was close enough to the target of 82. Using some kapton tape, I secured both ends and fixed the turns to the rod. The last end
 needed a bit of sanding to remove the coating and this, the most laborious part was done.
+Final rerrite rod measured: L=88.5 mH, C=-2.862 nF, R=1.0 mOhm, Z=5.56 kOhm, DCR=9.12 Ohm, Q=198, Phi=89.7 degrees.
 
 ### Breadboard
 As I now had all the components for building, I wanted to set things up and test them out. A good way of doing this is to use a
@@ -97,8 +98,8 @@ The varicaps BB112 has according to their datasheet a variable capacitance depen
 The varicaps are small transistor like items that does not require much current or space. The alternative to the varicaps are
 larger air capacitors costing several hundred euros to buy. The negative part is the DC needed over the varactors, we must have a capacitor
 in the circuit to block any DC from going into the antenna ferrite or we will be in big troubles! The DC block cap is not an issue in our circuit,
-so I think Paul’s choice of varactor is a stroke genius in this circuit. It becomes very easy and small compared to the large heavy variable
-air capacitors normally used. The BB112 came in a set of three matched once and at a reasonable 9.25 Euro!
+so I think Paul’s choice of varactor is a stroke of genius in this circuit. It becomes very easy and small compared to the large heavy variable
+air capacitors normally used. The BB112 came in a set of three matched varicaps and at a reasonable 9.25 Euro!
 The actual value for the capacitance, 967 pF lies in the range of the varactors, so we should have no problem to tune for resonance at
 17.2 kHz as well as quite a few more frequencies if needed.
 
