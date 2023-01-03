@@ -91,7 +91,7 @@ The varicaps are the other part of the resonant circuit, see https://en.wikipedi
 by the formula $f_0 = \frac{1}{2 \pi \sqrt{L C}}$ where $f_0$ is the resonant frequency, $L$ is the inductance in Henry and $C$ is the
 capacitance in Farad. In the schema $L$ is our rod antenna ferrite L1 and $C$ is the three varicaps D1, D2 and D3 in series.
 We already know $L$, it’s 88.5 mH, because we have measured it. This means we can rewrite the expression to express $C$ as a function of $f_0$ as:
-$ C = \frac{1}{L (2 \pi f_0)^2} $
+$C = \frac{1}{L (2 \pi f_0)^2}$
 
 
 
