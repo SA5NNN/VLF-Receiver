@@ -77,6 +77,15 @@ very fast. At the next measurement I was just over 100 mH. I had to unwind some 
 that was close enough to the target of 82. Using some kapton tape, I secured both ends and fixed the turns to the rod. The last end
 needed a bit of sanding to remove the coating and this, the most laborious part was done.
 
+### Breadboard
+As I now had all the components for building, I wanted to set things up and test them out. A good way of doing this is to use a
+breadboard. Breadboards can give unreliable connections and are useless at high frequencies, but this is a small build and a low
+frequency so it should work well even if we might have to wiggle the components at times. Ben Eater did some testing
+of reliable breadboards and recommended BB830 by BusBoard Prototype Systems that I used in my build. I attach the components
+as well as the antenna to the breadboard. Also, the breadboards power rails are powered from my lab power supply set to 9 V with
+a 10 mA current limitation. It’s certainly possible, even recommended, to use a 9 V battery for as low power rail noise as possible.
+The output was via a BNC coax with clamps so I could clamp on to the legs of the output component.
+
 ### Matching varicaps
 
 
