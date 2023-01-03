@@ -60,4 +60,17 @@ are, the more fiddly everything gets. I opted for DASOL 155-17-339, 0.30 mm diam
 The rod was the largest I could find in material 33, that is MnZn that is excellent at building inductance with each turn of the wire.
 It is R33-050-750 at http://www.amidon.de/contents/de/d649.html. This is supposed to have a permiability of 800 wich is fantastic!
 
+I took around 3 dm of wire out to the side to use as a connection, then started to wind the wire by rotating the rod in my hand and
+using a finger to stear the wire slowly past the rods length. I wound only the center 2/3 of the rod, thinking the ends should be free
+for some reason. According to Paul, this needs quite a few turns, like several hundreds, maybe even close to a thousand! It all
+depends on the material. Pauls experience seems to indicate a lot of issues with wrong information when bying etc. I came to the
+conclusion that I have to somehow meassure the inductance to see where I was. I sanded off the plastic coating of the end of the wire
+then after many many turns sanded off as small part of the wire as I could so I got into electrical connection with the wire. Then
+I meassured the inductance at 10 kHz and it was much to small (<30 mH). I decided not to retouch the coating, maybe nail polish
+could have resealed the wire? But it appears very unlikely that the test patches I do, should come into contact with eachother and
+short out, and even if they do, I can just wind more to compensate. This turned out to work, I never had a short on those small
+patches so I believe as long as you deo not do them all the time, it's fine without resealing the coating.
+
+Next I went for my power tool, opening the chuck and tried to insert the end of the rod padded with a bit of paper, it worked!
+I tightened enough to remove slack, but put no preassure on the rod as it is pretty fragile.
 
