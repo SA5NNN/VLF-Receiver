@@ -2,7 +2,7 @@
 
 KiCad schematics and docs for a VLF receiver aimed at 17.2 kHz SAQ reception.
 
-You can find all the documentation in the [[Wiki|https://github.com/SA5NNN/VLF-Receiver/wiki]]
+You can find all the documentation in the [Wiki](https://github.com/SA5NNN/VLF-Receiver/wiki)
 
 
 This project started out with me noticing the UNESCO world heritage Grimeton https://grimeton.org/ facility south of Gothenburg Sweden.
