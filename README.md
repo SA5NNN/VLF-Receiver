@@ -2,6 +2,9 @@
 
 KiCad schematics and docs for a VLF receiver aimed at 17.2 kHz SAQ reception.
 
+You can find all the documentation in the [[Wiki|https://github.com/SA5NNN/VLF-Receiver/wiki]]
+
+
 This project started out with me noticing the UNESCO world heritage Grimeton https://grimeton.org/ facility south of Gothenburg Sweden.
 Built in the 1920’s the facility communicated with New York where a similar station was located at Radio Central, Rocky Point, Long Island.
 The station is the only station operating an Alexanderson alternator transmitter. The alternator generates a sine wave at 17.2 kHz
@@ -111,6 +114,3 @@ Depletion mode means it can work around 0 V as it allows both positive and negat
 voltage signal around 17.2 kHz, so we need a very small amount of voltage around 0 V. If the received signal from SAQ is at signal strength S9,
 a very strong and fine signal, then it equates to 50 &mu;V or -73 dBm. 50 millionth of a volt is not much and the sinus signal will oscillate between
 –25 &mu;V and +25 &mu;V (RMS, not peak to peak), our FET must accept that.
-
-
-
