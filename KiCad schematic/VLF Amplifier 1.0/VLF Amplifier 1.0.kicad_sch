@@ -6,8 +6,8 @@
 
   (title_block
     (title "VLF amplifier")
-    (date "2023-01-02")
-    (rev "1")
+    (date "2023-01-07")
+    (rev "2")
     (comment 1 "Nicklas Norling, SA5NNN, original from https://www.prinz.nl/SAQ.html")
     (comment 2 "VLF amplifier for ferrite antenna to 50 ohm reciever.")
   )
@@ -1494,7 +1494,7 @@
     (property "Reference" "R8" (id 0) (at 222.25 68.5799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4k7" (id 1) (at 222.25 71.1199 0)
+    (property "Value" "1k" (id 1) (at 222.25 71.1199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 217.932 69.85 90)
@@ -2047,7 +2047,7 @@
       (reference "R7") (unit 1) (value "118k") (footprint "")
     )
     (path "/35363222-2616-4cf7-b3ad-0f5ee85dbf49"
-      (reference "R8") (unit 1) (value "4k7") (footprint "")
+      (reference "R8") (unit 1) (value "1k") (footprint "")
     )
     (path "/87f239f3-12ef-47dd-977e-9faee08e138a"
       (reference "RV1") (unit 1) (value "50k") (footprint "")
